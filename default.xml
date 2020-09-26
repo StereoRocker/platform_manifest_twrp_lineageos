@@ -11,9 +11,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r25" />
+           revision="refs/tags/android-6.0.1_r81" />
 
-  <default revision="refs/heads/cm-14.1"
+  <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -32,7 +32,7 @@
   <!-- project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" /> -->
   <!-- project path="art" name="LineageOS/android_art" groups="pdk" /> -->
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" groups="pdk-cw-fs"/>
   <!-- project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="developers/build" name="platform/developers/build" remote="aosp" /> -->
@@ -72,7 +72,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <!-- project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" /> -->
   <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
-  <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-14.1" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-13.0" />
   <!-- project path="external/c-ares" name="platform/external/c-ares" remote="aosp" /> -->
   <!-- project path="external/caliper" name="platform/external/caliper" remote="aosp" /> -->
   <!-- project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" /> -->
